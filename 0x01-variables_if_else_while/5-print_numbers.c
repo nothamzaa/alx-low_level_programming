@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * Desciption: this program print all single digit numbers of base 10 starting from 0
+ * Desciption: print * single digit numbers of base 10 starting from 0
  * Return: always 0
  */
 
