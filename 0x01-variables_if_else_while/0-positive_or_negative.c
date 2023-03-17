@@ -1,16 +1,8 @@
 #include <stdlib.h>
-#include <stdio.h>
 #include <time.h>
-/**
- * main - entry point
- *
- *
- * Description: positive or negative
- * Return: always 0
- *
- *
- */
+#include <stdio.h>
 
+/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
