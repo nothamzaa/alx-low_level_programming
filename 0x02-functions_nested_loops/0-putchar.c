@@ -1,10 +1,13 @@
 #include "main.h"
+
+
 /**
-* main - entry point
-*
-* Description: return print _putchar value
-* Return: always 0
-*/
+ * main - Entry point
+ * Description: prints _putchar, followed by a new line.
+ * Return: Always 0 (Success)
+ * Author: IanoNjuguna
+ */
+
 int main(void)
 {
 _putchar('_');
@@ -16,6 +19,7 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
+
 return (0);
 }
 
