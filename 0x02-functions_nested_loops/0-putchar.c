@@ -1,14 +1,22 @@
-#include<main.h>
+#include <stdio.h>
 
 /**
- * main - entry point
+ * main - Entry point
  *
- * Description: return value 0
- * Return: always 0
+ * Return: Always 0 (Success)
  */
 
 int main(void)
 {
-	printf("_putchar/n");
-	return (0);
+    putchar('_');
+    putchar('p');
+    putchar('u');
+    putchar('t');
+    putchar('c');
+    putchar('h');
+    putchar('a');
+    putchar('r');
+    putchar('\n');
+
+    return (0);
 }
