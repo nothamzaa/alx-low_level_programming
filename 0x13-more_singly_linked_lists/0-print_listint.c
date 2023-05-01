@@ -1,24 +1,22 @@
 #include "lists.h"
 
 /**
- * print_listint - prints all elements of a singly linked list to stdout
- * @h: pointer to the head of the list
- *
- * Return: number of nodes in the list
+ * print_listint - print all elemement to stdout
+ * @h: pointer to a singly liked list.
+ * Return: an int.
  **/
+
 size_t print_listint(const listint_t *h)
 {
-  const listint_t *temp;
-  unsigned int count = 0;
+  const listint_t *tp;
+  unsigned int cntr = 0;
 
-  temp = h;
-  while (temp != NULL)
+  tp = h;
+  while (tp)
     {
-      _putchar(temp->n + '0');
-      _putchar('\n');
-      count++;
-      temp = temp->next;
+      printf("%d\n", tp->n);
+      cntr++;
+      tp = tp->next;
     }
-
-  return (count);
+  return (cntr);
 }
